@@ -4,6 +4,10 @@ This is a pedometer application for Android phones that do not have this feature
 
 ![FitWatch](fitwatch.png)
 
+*TODO:*
+
+- Check accuracy of pedometer by comparing with FitBit 
+
 FlashCards
 =====
 ```json
