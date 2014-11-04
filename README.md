@@ -1,5 +1,7 @@
 FitWatch
 =====
+This is a pedometer application for Android phones that do not have this feature built in. Another feature of this application is that the steps count can be beamed to your Android wearable device by clicking on the 'Watch' button. The count will be displayed and updated in real-time on the watch.
+
 ![FitWatch](fitwatch.png)
 
 FlashCards
