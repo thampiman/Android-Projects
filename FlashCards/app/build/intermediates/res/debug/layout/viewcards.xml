@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/background">
+  <com.crimsonsky.flashcards.MyViewFlipper
+  	android:id="@+id/details" 
+  	android:layout_width="fill_parent" 
+  	android:layout_height="fill_parent"
+  	android:inAnimation="@anim/push_left_in"
+  	android:outAnimation="@anim/push_left_out"
+  	>
+  </com.crimsonsky.flashcards.MyViewFlipper>
+</LinearLayout>
+<!-- From: file:/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/layout/viewcards.xml -->

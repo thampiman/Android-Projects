@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/background"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:padding="15dip"
+	android:orientation="horizontal" >
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center"
+		android:paddingLeft="20dip"
+		android:paddingRight="20dip" >
+		<TextView
+			android:id="@+id/main_text_view"
+			android:text="@string/main_title"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_gravity="center"
+			android:textColor="@color/main_text"
+			android:layout_marginBottom="10dip"
+			android:typeface="serif"
+			android:textSize="36sp" />
+		<TextView 
+			android:id="@+id/dropbox_text_view" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:layout_gravity="center"
+		    android:layout_marginBottom="20dip"
+		    android:textSize="25sp"
+		    android:textColor="@color/main_text"
+		    android:text="@string/dropbox_title"
+		    android:typeface="serif"
+		    />
+		<TableLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_gravity="center"
+			android:stretchColumns="*" >
+			<TableRow>
+				<Button
+					android:id="@+id/my_cards_button"
+					android:text="@string/my_cards_label" />
+				<Button
+					android:id="@+id/sync_cards_button"
+					android:text="@string/sync_cards_label" />
+			</TableRow>
+			<TableRow>
+				<Button
+					android:id="@+id/new_cards_button"
+					android:text="@string/new_cards_label" />
+				<Button
+					android:id="@+id/settings_button"
+					android:text="@string/settings_label" />
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>				
+</LinearLayout>
+<!-- From: file:/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/layout-land/main.xml -->

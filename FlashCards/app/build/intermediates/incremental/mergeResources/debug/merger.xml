@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res" >
+            <file
+                name="push_left_in"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/anim/push_left_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_left_out"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/anim/push_left_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_right_in"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/anim/push_right_in.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="push_right_out"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/anim/push_right_out.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="icon"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/drawable-hdpi/icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/drawable-ldpi/icon.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="about"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/layout/about.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="mycards"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/layout/mycards.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="viewcards"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/layout/viewcards.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/layout-land/main.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="cards_menu_one"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/menu/cards_menu_one.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="my_cards_context_menu"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/menu/my_cards_context_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="opening_screen_one"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/menu/opening_screen_one.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="answer_text" >#ff8b4513
+                </color>
+                <color name="question" >#fffffccc
+                </color>
+                <color name="background" >#fffffccc
+                </color>
+                <color name="question_text" >#ff8b4513
+                </color>
+                <color name="main_text" >#ff8b4513
+                </color>
+                <color name="answer" >#ffffffff
+                </color>
+            </file>
+            <file
+                path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="about_shortcut" >a
+                </string>
+                <string name="settings_label" >Settings
+                </string>
+                <string name="sync_cards_label" >Sync Cards
+                </string>
+                <string name="my_cards_delete_all_shortcut" >a
+                </string>
+                <string name="my_cards_delete" >Delete Selected Set
+                </string>
+                <string name="my_cards_delete_shortcut" >d
+                </string>
+                <string name="new_cards_shortcut" >n
+                </string>
+                <string name="about_text" >The FlashCards application, as the name suggests, helps you create and view flash cards 
+    						  on the go. For a quick help video on how to use the application, tap 
+<a href="http://www.youtube.com/watch?feature=youtube_gdata_player&amp;v=oIr8-f2OWhs" >
+here
+                    </a>. 
+    						  This application is designed, developed and maintained by 
+<a href="mailto:ajay.thampi@gmail.com" >
+Ajay Thampi
+                    </a>.
+                </string>
+                <string name="about_label" >About
+                </string>
+                <string name="sync_cards_shortcut" >c
+                </string>
+                <string name="my_cards_title" >My Cards
+                </string>
+                <string name="main_title" >Flash Cards
+                </string>
+                <string name="app_name" >FlashCards
+                </string>
+                <string name="new_cards_label" >New Cards
+                </string>
+                <string name="my_cards_shortcut" >y
+                </string>
+                <string name="settings_shortcut" >s
+                </string>
+                <string name="view_cards_title" >Flash Cards
+                </string>
+                <string name="dropbox_title" >with Dropbox
+                </string>
+                <string name="about_title" >About FlashCards
+                </string>
+                <string name="my_cards_delete_all" >Delete All Sets
+                </string>
+                <string name="my_cards_label" >My Cards
+                </string>
+            </file>
+        </source>
+        <source path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/build/generated/res/rs/debug" />
+        <source path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/debug/res" />
+    </dataSet>
+
+</merger>

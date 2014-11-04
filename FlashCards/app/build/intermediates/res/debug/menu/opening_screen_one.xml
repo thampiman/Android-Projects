@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/about"
+	android:title="@string/about_label"
+	android:alphabeticShortcut="@string/about_shortcut" />
+</menu>
+<!-- From: file:/Users/ajay/Documents/Workspace/Android-Projects/FlashCards/app/src/main/res/menu/opening_screen_one.xml -->
