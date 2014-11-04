@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">Remotain\nment</string>
+    <string name="connected_to">Connected to</string>
+    <string name="connecting">Connecting</string>
+    <string name="divider_1">Divider 1</string>
+    <string name="divider_2">Divider 2</string>
+    <string name="divider_3">Divider 3</string>
+    <string name="hello">Hello World, RemotainmentActivity!</string>
+    <string name="media">Get Media</string>
+    <string name="mute">Mute</string>
+    <string name="next">Next</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="power">Power</string>
+    <string name="power_on_to_begin">Power On to Begin</string>
+    <string name="previous">Previous</string>
+    <string name="stop">Stop</string>
+    <string name="voldown">Volume Down</string>
+    <string name="volup">Volume Up</string>
+
+</resources>

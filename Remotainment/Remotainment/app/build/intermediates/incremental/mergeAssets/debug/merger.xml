@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/assets" >
+            <file
+                name="BebasNeue.otf"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/assets/BebasNeue.otf" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/debug/assets" />
+    </dataSet>
+
+</merger>

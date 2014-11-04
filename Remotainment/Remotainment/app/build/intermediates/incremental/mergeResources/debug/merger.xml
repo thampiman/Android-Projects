@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res" >
+            <file
+                name="bg_button"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/bg_button.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bg_remote"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/bg_remote.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bg_status"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/bg_status.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="media"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/media.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="mute"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/mute.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="next"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/next.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pause"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/pause.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="play"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/play.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="power"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/power.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="previous"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/previous.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="refresh"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/refresh.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="stop"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/stop.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="voldown"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/voldown.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="volup"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable/volup.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_remotainment"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable-ldpi/ic_remotainment.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main"
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="divider_3" >Divider 3
+                </string>
+                <string name="previous" >Previous
+                </string>
+                <string name="divider_2" >Divider 2
+                </string>
+                <string name="divider_1" >Divider 1
+                </string>
+                <string name="connecting" >Connecting
+                </string>
+                <string name="stop" >Stop
+                </string>
+                <string name="connected_to" >Connected to
+                </string>
+                <string name="hello" >Hello World, RemotainmentActivity!
+                </string>
+                <string name="play" >Play
+                </string>
+                <string name="pause" >Pause
+                </string>
+                <string name="media" >Get Media
+                </string>
+                <string name="app_name" >Remotain\nment
+                </string>
+                <string name="mute" >Mute
+                </string>
+                <string name="power_on_to_begin" >Power On to Begin
+                </string>
+                <string name="next" >Next
+                </string>
+                <string name="power" >Power
+                </string>
+                <string name="volup" >Volume Up
+                </string>
+                <string name="voldown" >Volume Down
+                </string>
+            </file>
+        </source>
+        <source path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/build/generated/res/rs/debug" />
+        <source path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/ajay/Documents/Workspace/Android-Projects/Remotainment/Remotainment/app/src/debug/res" />
+    </dataSet>
+
+</merger>
