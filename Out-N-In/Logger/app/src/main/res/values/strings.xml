@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Out-N-In Logger</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="gps_provider">GPS Provider</string>
+    <string name="gps_provider_enabled">Enabled</string>
+    <string name="gps_provider_disabled">Disabled</string>
+    <string name="gps_status">GPS Status</string>
+    <string name="gps_status_available">Available</string>
+    <string name="gps_status_out_of_service">Out of Service</string>
+    <string name="gps_status_temporarily_unavailable">Temporarily Unavailable</string>
+    <string name="unknown">Unknown</string>
+    <string name="gps_coordinates">GPS Coordinates</string>
+    <string name="gps_accuracy">GPS Accuracy</string>
+    <string name="cell_signal_strength">Cell Signal Strength</string>
+    <string name="start_logging">Start Logging</string>
+    <string name="stop_logging">Stop Logging</string>
+    <string name="location">Location</string>
+    <string name="enable_gps_alert_title">Enable GPS</string>
+    <string name="enable_gps_alert">Please enable GPS before you start logging. Would you like to do that now?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string-array name="location_array">
+        <item>Outdoor</item>
+        <item>Indoor</item>
+    </string-array>
+
+</resources>

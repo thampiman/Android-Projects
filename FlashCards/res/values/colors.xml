@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#fffffccc</color>
+	<color name="question">#fffffccc</color>
+	<color name="answer">#ffffffff</color>
+	<color name="main_text">#ff8b4513</color>
+	<color name="question_text">#ff8b4513</color>
+	<color name="answer_text">#ff8b4513</color>
+</resources>

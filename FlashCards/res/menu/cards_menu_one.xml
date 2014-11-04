@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/my_cards_menu"
+	android:title="@string/my_cards_label"
+	android:alphabeticShortcut="@string/my_cards_shortcut" />
+  <item android:id="@+id/new_cards_menu"
+	android:title="@string/new_cards_label"
+	android:alphabeticShortcut="@string/new_cards_shortcut" />
+  <item android:id="@+id/sync_cards_menu"
+	android:title="@string/sync_cards_label"
+	android:alphabeticShortcut="@string/sync_cards_shortcut" />
+  <item android:id="@+id/settings_menu"
+	android:title="@string/settings_label"
+	android:alphabeticShortcut="@string/settings_shortcut" />
+</menu>
