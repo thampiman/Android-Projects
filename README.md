@@ -64,3 +64,8 @@ The following screenshots show how the JSON file is processed and displayed in t
 
 Remotainment
 =====
+This is an open source remote controller application for the VLC media player. It consists of a server application that runs on your computer and interfaces with VLC and an Android application that interfaces with the server app.
+
+### Remotainment Server
+
+### Remotainment Android App (*Work in Progress*)

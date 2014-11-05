@@ -125,7 +125,7 @@ public class MyCards extends ListActivity {
                             try {
                                 JSONObject reader = new JSONObject(jsonStr);
 
-                                JSONObject main  = reader.getJSONObject("main");
+                                JSONObject main  = reader.getJSONObject("deck");
                                 String title = main.getString("title");
 
                                 JSONArray cards  = reader.getJSONArray("cards");
