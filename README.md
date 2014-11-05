@@ -64,12 +64,12 @@ The following screenshots show how the JSON file is processed and displayed in t
 
 Remotainment
 =====
-This is an open source remote controller application for the VLC media player. It consists of a server desktop app that interfaces with VLC on your PC, and an Android app as the controller.
+This is an open source remote controller application for the VLC media player. It consists of a server desktop app that interfaces with VLC on your PC, and an Android app that acts as the controller.
 
 ### Remotainment Server
-This Java desktop application runs on your PC and acts as the middleman between the Android app and VLC. VLC can be launched as a server to listen on a specific TCP port but this is quite hard to setup for a normal user. The server app does all the hard work of setting VLC up and also provides additional features for the Android app, as detailed below. This app is currently supported only on Windows. 
+This Java desktop application runs on your PC and acts as the middleman between the Android app and VLC. The app does all the hard work of setting VLC up and also provides additional features for the Android app, as detailed below. At the moment, this app is currently supported only on Windows. 
 
-It listens on TCP port 1309 for connections from the Android app. The connection is secured using a password so that it does not allow any client to connect to the server. The server supports only one client to connect at a time. Once a client connects on port 1309, the server attempts to connect to the client on port 2005 to establish a two-way link. 
+It listens on TCP port 1309 for connections from the client app. The connection is secured using a password so that it does not allow any client to connect to the server. The server supports only one client to connect at a time. Once a client connects on port 1309, the server attempts to connect to the client on port 2005 to establish a two-way link. 
 
 The server supports the following queries from the client:
 
@@ -82,4 +82,4 @@ The server supports the following queries from the client:
 The connection with VLC is made on port 1005.
 
 ### Remotainment Android App (*Work in Progress*)
-The Android app is a simple remote control that allows the user to connect to the server app using the *power* button. The media list can be obtained and specific files can be queued in VLC for playback. This app is currently a work in progress.
+The Android app is a simple remote controller. It allows the user to connect to the server app using the *power* button. A list of the media files on the PC can be obtained and specific files can be chosen for playback on VLC. This app is currently a work in progress.
