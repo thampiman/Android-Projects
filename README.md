@@ -48,7 +48,7 @@ This is an open source flash cards application to aid with learning. I personall
     ]
 }
 ```
-Once these cards are created, they have to be copied onto the SD storage of the device in the *FlashCards* folder. When the app is opened on the device, it processes all the JSON files in the *FlashCards* folder and persists each deck into an SQLite database. 
+Once these cards are created, they have to be copied into the *FlashCards* folder on the SD storage of the device. When the app is opened on the device, it processes all the JSON files and persists each deck into an SQLite database. 
 
 The following screenshots show how the JSON file is processed and displayed in the Android app. The cards in the deck are randomised every time the deck is opened.
 
@@ -64,12 +64,12 @@ The following screenshots show how the JSON file is processed and displayed in t
 
 Remotainment
 =====
-This is an open source remote controller application for the VLC media player. It consists of a server desktop app that interfaces with VLC on your PC, and an Android app that acts as the controller.
+This is an open source remote controller application for the VLC media player. It consists of a desktop app that interfaces with VLC on your PC, and an Android app that acts as the controller.
 
 ### Remotainment Server
-This Java desktop application runs on your PC and acts as the middleman between the Android app and VLC. The app does all the hard work of setting VLC up and also provides additional features for the Android app, as detailed below. At the moment, this app is currently supported only on Windows. 
+This Java desktop app runs on your PC and acts as the middleman between the controller and VLC. The app does all the hard work of setting VLC up and also provides additional features for the Android app, as detailed below. At the moment, this app is currently supported only on Windows. 
 
-It listens on TCP port 1309 for connections from the client app. The connection is secured using a password so that it does not allow any client to connect to the server. The server supports only one client to connect at a time. Once a client connects on port 1309, the server attempts to connect to the client on port 2005 to establish a two-way link. 
+It listens on TCP port 1309 for connections from the client. The connection is secured using a password so that it does not allow any client to connect to the server. The server supports only one client to connect at a time. Once a client connects on port 1309, the server attempts to connect to the client on TCP port 2005 to establish a two-way link. 
 
 The server supports the following queries from the client:
 
@@ -79,10 +79,10 @@ The server supports the following queries from the client:
    - The following file formats are supported: avi, asf, wmv, wma, mp4, mp3, mov, 3gp, ogg, ogm, mkv, rm, wav, flac, flv, mxf
    - By default, the entire hard disk is scanned but the user can set a specific folder to save time
 
-The connection with VLC is made on port 1005.
+The connection with VLC is made on TCP port 1005.
 
 ### Remotainment Android App (*Work in Progress*)
-The Android app is a simple remote controller. It allows the user to connect to the server app using the *power* button. A list of the media files on the PC can be obtained and specific files can be chosen for playback on VLC. This app is currently a work in progress.
+The client app is a simple remote controller. It allows the user to connect to the server using the *power* button. A list of the media files on the PC can be obtained and specific files can be chosen for playback on VLC. This app is currently a work in progress.
 
 License
 =====
