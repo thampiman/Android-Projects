@@ -73,9 +73,9 @@ It listens on TCP port 1309 for connections from the client app. The connection 
 
 The server supports the following queries from the client:
 
-1. Launch / Quit VLC
-2. Play / Pause / Next / Previous / Vol Up / Vol Down / Full Screen
-3. Get Media List
+1. Launch / Quit VLC (see [VLCControl.java](https://github.com/thampiman/Android-Projects/blob/master/Remotainment/Remotainment_Server/src/com/crimsonsky/remotainment/intf/VLCControl.java))
+2. Play / Pause / Next / Previous / Vol Up / Vol Down / Full Screen (see [VLCControl.java](https://github.com/thampiman/Android-Projects/blob/master/Remotainment/Remotainment_Server/src/com/crimsonsky/remotainment/intf/VLCControl.java))
+3. Get Media List (see [RCServer.java](https://github.com/thampiman/Android-Projects/blob/master/Remotainment/Remotainment_Server/src/com/crimsonsky/remotainment/intf/RCServer.java))
    - The following file formats are supported: avi, asf, wmv, wma, mp4, mp3, mov, 3gp, ogg, ogm, mkv, rm, wav, flac, flv, mxf
    - By default, the entire hard disk is scanned but the user can set a specific folder to save time
 
