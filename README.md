@@ -83,3 +83,7 @@ The connection with VLC is made on port 1005.
 
 ### Remotainment Android App (*Work in Progress*)
 The Android app is a simple remote controller. It allows the user to connect to the server app using the *power* button. A list of the media files on the PC can be obtained and specific files can be chosen for playback on VLC. This app is currently a work in progress.
+
+License
+=====
+The MIT License (MIT)
