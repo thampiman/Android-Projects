@@ -10,7 +10,7 @@ This is an open source pedometer application for Android phones that do not have
 
 FlashCards
 =====
-This is an open source flash cards application to aid learning. I personally built this application to help me revise during my exams. The cards can be created on your computer in a simple JSON format, as shown below. It consists of a *deck* JSON object that contains the title of the deck of cards. The *cards* are represented as a JSON array and each card is a JSON object consisting of a *question*, a *hint* and an *answer*. The strings in the card can be formatted using HTML tags.
+This is an open source flash cards application to aid with learning. I personally built this app to help me with exam prep. The cards can be created easily using a simple text editor on your computer. The format is JSON, as shown below. It consists of a *deck* JSON object that contains the title of the deck of cards. The *cards* are represented as a JSON array and each card is a JSON object consisting of a *question*, a *hint* and an *answer*. The strings in the card can be formatted using HTML tags.
 
 ```json
 {
@@ -48,9 +48,9 @@ This is an open source flash cards application to aid learning. I personally bui
     ]
 }
 ```
-Once these cards are created, they have to be copied onto the SD storage of the device in the *FlashCards* folder. When the application is opened on the device, it processes all the JSON files in the *FlashCards* folder and persists each deck into an SQLite database. 
+Once these cards are created, they have to be copied onto the SD storage of the device in the *FlashCards* folder. When the app is opened on the device, it processes all the JSON files in the *FlashCards* folder and persists each deck into an SQLite database. 
 
-The following screenshots show how the JSON file is processed and displayed in the Android application. The cards in the deck are randomised every time the deck is opened in the app.
+The following screenshots show how the JSON file is processed and displayed in the Android app. The cards in the deck are randomised every time the deck is opened.
 
 ![FlashCards Main Screen](flashcards_main.png)
 
@@ -64,9 +64,22 @@ The following screenshots show how the JSON file is processed and displayed in t
 
 Remotainment
 =====
-This is an open source remote controller application for the VLC media player. It consists of a server application that interfaces with VLC on your computer, and an Android application that interfaces with the server app.
+This is an open source remote controller application for the VLC media player. It consists of a server desktop app that interfaces with VLC on your PC, and an Android app as the controller.
 
 ### Remotainment Server
-This Java application runs on your computer
+This Java desktop application runs on your PC and acts as the middleman between the Android app and VLC. VLC can be launched as a server to listen on a specific TCP port but this is quite hard to setup for a normal user. The server app does all the hard work of setting VLC up and also provides additional features for the Android app, as detailed below. This app is currently supported only on Windows. 
+
+It listens on TCP port 1309 for connections from the Android app. The connection is secured using a password so that it does not allow any client to connect to the server. The server supports only one client to connect at a time. Once a client connects on port 1309, the server attempts to connect to the client on port 2005 to establish a two-way link. 
+
+The server supports the following queries from the client:
+
+1. Launch / Quit VLC
+2. Play / Pause / Next / Previous / Vol Up / Vol Down / Full Screen
+3. Get Media List
+   - The following file formats are supported: avi, asf, wmv, wma, mp4, mp3, mov, 3gp, ogg, ogm, mkv, rm, wav, flac, flv, mxf
+   - By default, the entire hard disk is scanned but the user can set a specific folder to save time
+
+The connection with VLC is made on port 1005.
 
 ### Remotainment Android App (*Work in Progress*)
+The Android app is a simple remote control that allows the user to connect to the server app using the *power* button. The media list can be obtained and specific files can be queued in VLC for playback. This app is currently a work in progress.
