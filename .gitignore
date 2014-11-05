@@ -5,7 +5,7 @@ FlashCards/build
 FlashCards/app/build
 Remotainment/Remotainment/build
 Remotainment/Remotainment/app/build
-Remotainment_Server/bin
+Remotainment/Remotainment_Server/bin
 
 # Class Files #
 *.class
