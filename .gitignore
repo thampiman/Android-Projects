@@ -1,0 +1,16 @@
+# Build folders
+FitWatch/build
+FitWatch/app/build
+FlashCards/build
+FlashCards/app/build
+Remotainment/Remotainment/build
+Remotainment/Remotainment/app/build
+Remotainment_Server/bin
+
+# Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
