@@ -60,7 +60,7 @@ The following screenshots show how the JSON file is processed and displayed in t
 
 *TODO:*
 
-- Implement the [Leitner](http://en.wikipedia.org/wiki/Leitner_system) system to improve
+- Implement the [Leitner](http://en.wikipedia.org/wiki/Leitner_system) system to improve how the cards are displayed. Cards have to be reviewed at increasing interval.
 
 Remotainment
 =====
