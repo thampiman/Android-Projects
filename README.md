@@ -48,7 +48,7 @@ This is an open source flash cards application to aid learning. I personally bui
     ]
 }
 ```
-Once these cards are created, they have to be copied onto the SD storage of the device in the *FlashCards* folder. When the application is opened on the device, it processes the JSON files in the *FlashCards* folder and persists it into an SQLite database. 
+Once these cards are created, they have to be copied onto the SD storage of the device in the *FlashCards* folder. When the application is opened on the device, it processes all the JSON files in the *FlashCards* folder and persists each deck into an SQLite database. 
 
 The following screenshots show how the JSON file is processed and displayed in the Android application. The cards in the deck are randomised every time the deck is opened in the app.
 
@@ -60,7 +60,7 @@ The following screenshots show how the JSON file is processed and displayed in t
 
 *TODO:*
 
-- Check accuracy of pedometer by comparing with FitBit
+- Implement the [Leitner](http://en.wikipedia.org/wiki/Leitner_system) system to improve
 
 Remotainment
 =====
