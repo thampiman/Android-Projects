@@ -10,7 +10,7 @@ This is an open source pedometer application for Android phones that do not have
 
 FlashCards
 =====
-This is an open source flash cards application to aid learning. I personally built this application to help me revise during my exams. The cards can be created on your computer in a simple JSON format, as shown below. It consists of a *main* JSON object that contains the title of the deck of cards. The *cards* are represented as a JSON array and each card is a JSON object consisting of a *question*, a *hint* and an *answer*. The strings in the card can be formatted using HTML tags.
+This is an open source flash cards application to aid learning. I personally built this application to help me revise during my exams. The cards can be created on your computer in a simple JSON format, as shown below. It consists of a *deck* JSON object that contains the title of the deck of cards. The *cards* are represented as a JSON array and each card is a JSON object consisting of a *question*, a *hint* and an *answer*. The strings in the card can be formatted using HTML tags.
 
 ```json
 {
