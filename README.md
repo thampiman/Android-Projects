@@ -14,7 +14,7 @@ This is an open source flash cards application to aid learning. I personally bui
 
 ```json
 {
-  "main": 
+  "deck": 
     {
        "title": "Barron's GRE Vocab 01"
     },
