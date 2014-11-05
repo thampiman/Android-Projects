@@ -130,11 +130,12 @@
       <file leaf-file-name="MyCards.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/crimsonsky/flashcards/MyCards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.1" vertical-offset="0" max-vertical-offset="5085">
-              <caret line="127" column="77" selection-start-line="127" selection-start-column="77" selection-end-line="127" selection-end-column="77" />
+            <state vertical-scroll-proportion="4.8333335" vertical-offset="0" max-vertical-offset="5115">
+              <caret line="145" column="56" selection-start-line="145" selection-start-column="56" selection-end-line="145" selection-end-column="56" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#7198#7204#0" expanded="true" />
+                <element signature="e#7160#7166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -833,8 +834,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/crimsonsky/flashcards/FlashCards.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/crimsonsky/flashcards/MyCards.java" />
         <option value="$PROJECT_DIR$/example_cards.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/crimsonsky/flashcards/MyCards.java" />
       </list>
     </option>
   </component>
@@ -1191,8 +1192,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="4815" max-vertical-offset="5265">
           <caret line="345" column="45" selection-start-line="345" selection-start-column="45" selection-end-line="345" selection-end-column="45" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#7198#7204#0" expanded="true" />
+            <element signature="e#7160#7166#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1303,11 +1305,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/crimsonsky/flashcards/MyCards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.1" vertical-offset="0" max-vertical-offset="5085">
-          <caret line="127" column="77" selection-start-line="127" selection-start-column="77" selection-end-line="127" selection-end-column="77" />
+        <state vertical-scroll-proportion="4.8333335" vertical-offset="0" max-vertical-offset="5115">
+          <caret line="145" column="56" selection-start-line="145" selection-start-column="56" selection-end-line="145" selection-end-column="56" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#7198#7204#0" expanded="true" />
+            <element signature="e#7160#7166#0" expanded="true" />
           </folding>
         </state>
       </provider>

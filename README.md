@@ -60,12 +60,13 @@ The following screenshots show how the JSON file is processed and displayed in t
 
 *TODO:*
 
-- Implement the [Leitner](http://en.wikipedia.org/wiki/Leitner_system) system to improve how the cards are displayed. Cards have to be reviewed at increasing interval.
+- Implement the [Leitner](http://en.wikipedia.org/wiki/Leitner_system) system to improve how the cards are displayed
 
 Remotainment
 =====
-This is an open source remote controller application for the VLC media player. It consists of a server application that runs on your computer and interfaces with VLC and an Android application that interfaces with the server app.
+This is an open source remote controller application for the VLC media player. It consists of a server application that interfaces with VLC on your computer, and an Android application that interfaces with the server app.
 
 ### Remotainment Server
+This Java application runs on your computer
 
 ### Remotainment Android App (*Work in Progress*)

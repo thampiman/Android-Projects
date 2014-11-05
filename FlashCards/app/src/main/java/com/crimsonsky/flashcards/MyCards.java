@@ -98,24 +98,24 @@ public class MyCards extends ListActivity {
 	{
         File storageDirectory = Environment.getExternalStorageDirectory();
         String path = storageDirectory.getAbsolutePath();
-        String flashCardsDir = path + "/FlashCards/";
-        File flashCards = new File(flashCardsDir);
+        String flashCardsDirName = path + "/FlashCards/";
+        File flashCardsDir = new File(flashCardsDirName);
 
-        if (flashCards.isDirectory()) {
-            File [] files = flashCards.listFiles();
-            if (files != null) {
-                for (final File file : files) {
-                    if (file.isFile()) {
+        if (flashCardsDir.isDirectory()) {
+            File [] decks = flashCardsDir.listFiles();
+            if (decks != null) {
+                for (final File deck : decks) {
+                    if (deck.isFile()) {
                         // Process and Store JSON file
                         try {
-                            FileInputStream stream = new FileInputStream(file);
+                            FileInputStream stream = new FileInputStream(deck);
                             String jsonStr = null;
                             try {
                                 FileChannel fc = stream.getChannel();
                                 MappedByteBuffer bb = fc.map(FileChannel.MapMode.READ_ONLY, 0, fc.size());
 
                                 jsonStr = Charset.defaultCharset().decode(bb).toString();
-                            } catch (IOException ioe) {}
+                            } catch (IOException e) {}
                             finally {
                                 try {
                                     stream.close();
@@ -143,16 +143,14 @@ public class MyCards extends ListActivity {
                                     addCard(sId, question, hint, answer);
                                 }
                             } catch (JSONException e) {}
-                        } catch (FileNotFoundException ex) {}
+                        } catch (FileNotFoundException e) {}
 
                         // Delete JSON file
-                        file.delete();
+                        deck.delete();
                     }
                 }
             }
         }
-
-		// addCards("Barron's GRE Vocab 01", "5 cards");
 	}
 	
 	private String addMetaData(String cardsTitle, String numCards) {
